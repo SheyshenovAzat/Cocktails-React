@@ -1,0 +1,67 @@
+.h1_coctail {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* margin-top: -5px; */
+    font-family: monospace;
+    font-size: 35px;
+    color: orange;
+    animation: anim 5s linear infinite
+}
+
+@keyframes anim {
+    from {
+        filter: hue-rotate(0deg)
+    }
+
+    to {
+        filter: hue-rotate(360deg);
+    }
+}
+
+#required {
+    color: white;
+}
+
+#filled-basic {
+    background-color: transparent;
+    border-radius: 5px;
+    color: white;
+}
+
+.css-19mk8g1-MuiInputBase-root-MuiFilledInput-root {
+    color: white;
+}
+
+label#filled-basic-label {
+    color: white;
+}
+
+.MuiFormControl-root.MuiTextField-root.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+    border: 0.5px solid white;
+    border-radius: 5px;
+}
+
+button.MuiButtonBase-root.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary.MuiButton-sizeMedium.MuiButton-outlinedSizeMedium.css-1rwt2y5-MuiButtonBase-root-MuiButton-root {
+    color: white;
+    border: 0.5px solid white;
+    width: 100px;
+    height: 57px;
+}
+
+button.MuiButtonBase-root.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary.MuiButton-sizeMedium.MuiButton-outlinedSizeMedium.css-1rwt2y5-MuiButtonBase-root-MuiButton-root:hover {
+    color: blue;
+    border: 0.5px solid blue;
+}
+
+img.MuiCardMedia-root.MuiCardMedia-media.MuiCardMedia-img.css-o69gx8-MuiCardMedia-root {
+    border-radius: 50px;
+}
+
+div#demo-simple-select {
+    width: 100px;
+    height: 10px;
+    border: 0.7px solid white;
+    border-radius: 5px;
+    color: white;
+}

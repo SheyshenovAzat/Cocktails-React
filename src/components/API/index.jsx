@@ -1,0 +1,6 @@
+export const API = 'https://www.thecocktaildb.com/api/json/v1/1/'
+export const ALLCOCTAILS_API = API + 'filter.php?c=Cocktail'
+export const DETAIL_COCTAIL_API = API + 'lookup.php?i='
+export const SEARCH_COCTAIL_BY_NAME = API + 'search.php?s='
+export const FILTER = API + 'filter.php?a='
+export const SEARCH_BY_INGR = API + 'search.php?i='

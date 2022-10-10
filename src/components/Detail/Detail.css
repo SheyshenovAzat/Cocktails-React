@@ -1,0 +1,121 @@
+.card_style {
+    width: 90%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.div_border {
+    border-radius: 15px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.instruction {
+    width: 80%;
+    text-align: center;
+}
+
+.instruction_position {
+    display: flex;
+    justify-content: center;
+}
+
+
+#img {
+    width: 450px;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.description {
+    width: 70%;
+}
+
+.title_position {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    /* margin-top: -5px; */
+    font-family: monospace;
+    font-size: 40px;
+    color: orange;
+    animation: anim 5s linear infinite
+}
+
+@keyframes anim {
+    from {
+        filter: hue-rotate(0deg)
+    }
+
+    to {
+        filter: hue-rotate(360deg);
+    }
+}
+
+.title2 {
+    text-align: center;
+    width: 90%;
+    margin-top: -10px;
+    font-family: monospace;
+    font-size: 35px;
+    color: white;
+}
+
+.title_div {
+    width: 35%;
+    height: 350px;
+}
+
+.title3 {
+    text-align: center;
+    width: 100%;
+    margin-top: -10px;
+    font-family: monospace;
+    font-size: 30px;
+    color: white;
+}
+
+.divs_position {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+    /* align-items: center; */
+}
+
+.all_links {
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.all_li {
+    list-style: none;
+    text-emphasis: none;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.button_array {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.LinkStyle {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#head {
+    margin-bottom: 3%;
+}
